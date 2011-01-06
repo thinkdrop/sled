@@ -1,5 +1,18 @@
 /* $Id: colors.css,v 1.9 2010/12/06 19:55:44 webchick Exp $ */
 
+/* ThinkDrop Sled Color Style Guide 
+ * Base Color (Dark Blue on Business Cards)
+ * 	background-color: #031c33;
+ *	background-color: rgba(3, 28, 51, 0.9);
+ 
+ * Link Color (Analgous)
+ * color: #6e5a00;
+ *
+
+*/
+
+
+
 /* ---------- Color Module Styles ----------- */
 
 body {
@@ -43,8 +56,7 @@ a:active {
   color: #23aeff;
 }
 .sidebar .block {
-  background-color: #f6f6f2;
-  border-color: #f9f9f9;
+  background-color: none;
 }
 #footer-wrapper {
   background-color: #000022;
@@ -54,7 +66,6 @@ a:active {
 .region-header a,
 .region-header li a.active,
 #name-and-slogan,
-#name-and-slogan a,
-#secondary-menu-links li a {
+#name-and-slogan a {
   color: #fffeff;
 }

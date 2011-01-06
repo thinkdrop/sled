@@ -207,7 +207,7 @@
 	          'heading' => array(
 	            'text' => t('Secondary menu'),
 	            'level' => 'h2',
-	            'class' => array('element-visible'),
+	            'class' => array('element-invisible'),
 	          ),
 	        )); ?>
 	      </div> <!-- /#secondary-menu -->

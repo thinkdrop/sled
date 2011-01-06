@@ -352,7 +352,6 @@ h1#site-name {
 	background: #fff !important;
 	margin-top: 7px;
 	border-bottom: 1px solid rgba(0, 0, 34, 0.3);
-/*	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#077907), to(#48A9E4));*/
 }
 
 /* Region header blocks. */
@@ -562,6 +561,19 @@ h1#site-name {
   font-size: 0.929em;
   margin: 10px 10px 0;
 }
+
+#secondary-menu-links {
+	border-top: 7px solid rgba(0, 0, 34, 0.5);
+
+}
+
+#secondary-menu-links li a {
+	padding: 10px 0px 9px 10px;
+	display: block;
+	border-bottom: 1px solid rgba(0, 0, 34, 0.3);
+
+}
+
 #secondary-menu-links a:hover,
 #secondary-menu-links a:focus {
   text-decoration: underline;
@@ -795,16 +807,17 @@ ul.links {
   padding-top: 10px;
 }
 .sidebar .block {
-  border: 1px solid;
-  padding: 15px 20px;
+  padding: 0;
   margin: 0 0 20px;
 }
+
+.sidebar .block li {
+	list-style-type: none;
+}
+
 .sidebar h2 {
   margin: 0 0 0.5em;
-  border-bottom: 1px solid #d6d6d6;
-  padding-bottom: 5px;
   text-shadow: 0 1px 0 #fff;
-  font-size: 1.071em;
   line-height: 1.2;
 }
 .sidebar .block .content {
