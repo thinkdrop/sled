@@ -4,8 +4,9 @@
 
 body {
   background-color: #fff;
+	font-family: "Lucida Grande", sans-serif !important;
   line-height: 1.5;
-  font-size: 87.5%;
+  font-size: 75.5%;
   word-wrap: break-word;
   margin: 0;
   padding: 0;
@@ -298,9 +299,13 @@ ul.tips {
   padding: 15px 15px 15px 10px; /* LTR */
 }
 #name-and-slogan {
-  float: left; /* LTR */
-  padding-top: 34px;
-  margin: 0 0 30px 15px; /* LTR */
+  float: none; /* LTR */
+	display: block;
+	background: transparent url('../images/logo-sm.jpg') no-repeat top left;
+	height: 144px;
+	width: 252px;
+  padding: 0;
+  margin: 0; /* LTR */
 }
 #site-name {
   font-size: 1.821em;
@@ -319,6 +324,15 @@ h1#site-name {
   word-spacing: 0.1em;
   font-style: italic;
 }
+
+/*@todo coming from files css */
+#header {
+	background: #fff !important;
+	margin-top: 7px;
+	border-bottom: 1px solid #000022;
+/*	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#077907), to(#48A9E4));*/
+}
+
 /* Region header blocks. */
 .region-header .block {
   font-size: 0.857em;
@@ -514,8 +528,15 @@ h1#site-name {
 
 /* --------------- Secondary Menu ------------ */
 
+/* @todo overriding cached css files */
+#secondary-menu {
+	position: relative;
+	width: auto;
+}
+
+
 #secondary-menu-links {
-  float: right; /* LTR */
+  float: none; /* LTR */
   font-size: 0.929em;
   margin: 10px 10px 0;
 }
@@ -594,7 +615,7 @@ h1#page-title {
   padding-top: 0.5em;
 }
 .node-teaser h2 a {
-  color: #181818;
+  color: #031139;
 }
 .node-teaser {
   border-bottom: 1px solid #d3d7d9;
@@ -620,6 +641,7 @@ h1#page-title {
   font-size: 0.857em;
   color: #68696b;
   margin-bottom: -5px;
+	text-transform: uppercase;
 }
 .submitted .user-picture img {
   float: left; /* LTR */
@@ -781,7 +803,7 @@ ul.links {
 
 #triptych-wrapper {
   background-color: #f0f0f0;
-  background: rgba(30, 50, 10, 0.08);
+  background: rgba(18, 3, 57, 0.08);
   border-top: 1px solid #e7e7e7;
 }
 #triptych h2 {

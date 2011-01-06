@@ -3,7 +3,7 @@
 /* ---------- Color Module Styles ----------- */
 
 body {
-  background-color: #292929;
+  background-color: #000022;
   color: #ffffff;
 }
 #page-wrapper,
@@ -32,7 +32,7 @@ body.overlay {
   background-image: -moz-linear-gradient(-90deg, #077907, #48a9e4);
 }
 a {
-  color: #0071B3;
+  color: #6e5a00;
 }
 a:hover,
 a:focus {
@@ -46,7 +46,7 @@ a:active {
   border-color: #f9f9f9;
 }
 #footer-wrapper {
-  background: #292929;
+  background: #1d0333;
 }
 .region-header,
 .region-header a,
