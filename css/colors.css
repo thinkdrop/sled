@@ -3,7 +3,8 @@
 /* ---------- Color Module Styles ----------- */
 
 body {
-  background-color: #000022;
+  background-color: #031c33;
+	background-color: rgba(3, 28, 51, 0.9);	
   color: #ffffff;
 }
 #page-wrapper,
@@ -46,7 +47,8 @@ a:active {
   border-color: #f9f9f9;
 }
 #footer-wrapper {
-  background: #1d0333;
+  background-color: #000022;
+	background-color: rgba(0, 0, 34, 0.9);	
 }
 .region-header,
 .region-header a,
