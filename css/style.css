@@ -1655,4 +1655,6 @@ div.admin-panel .description {
 .view-latest-blog .views-row {
 	float: left;
 	width: 30%;
+	padding: 0 10px;
+	margin: 0 5px;
 }
