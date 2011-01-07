@@ -500,7 +500,9 @@ h1#site-name {
 
 #main-menu {
   clear: both;
-	margin: 25px 0 10px;
+	margin: 0px 0 10px;
+	position: relative;
+	top: 45px;
 }
 #main-menu-links a {
   color: #d9d9d9;
@@ -535,16 +537,18 @@ h1#site-name {
 
 #main-menu-links a:hover,
 #main-menu-links a:focus {
-  background: #f6f6f2;
-  background: rgba(255, 255, 255, 0.95);
+  background-color: #031c33;
+	background-color: rgba(3, 28, 51, 0.6);	
+	color: #fff;	
 }
-#main-menu-links a:active {
-  background: #b3b3b3;
-  background: rgba(255, 255, 255, 1);
+
+#main-menu-links li a.active,
+#main-menu-links li.active-trail a {
+  background-color: #031c33;
+	background-color: rgba(3, 28, 51, 0.9);	
+	color: #fff;
 }
-#main-menu-links li a.active {
-  border-bottom: none;
-}
+
 .featured #main-menu-links li a:active,
 .featured #main-menu-links li a.active {
   background: #f0f0f0;
@@ -810,7 +814,7 @@ ul.links {
 /* ------------------ Sidebar ----------------- */
 .front #sidebar-second {
 	position: absolute;
-	top: 0px;
+	top: 34px; /* offsetting janky tabs code */
 	right: 0px;
 }
 
