@@ -68,7 +68,7 @@ h1, #page-title {
 	width: 510px;
 	color: #fff;
 	position: absolute;
-	top: 250px;
+	top: -250px;
 	left: 190px;
 	text-shadow: 0 1px 1px #6E5A00;
 	text-align: right;
