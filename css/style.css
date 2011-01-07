@@ -584,43 +584,58 @@ h1#site-name {
 /* --------------- Secondary Menu ------------ */
 
 /* @todo overriding cached css files */
-#secondary-menu {
+.block-menu, .block-menu-block
+{
 	position: relative;
 	width: auto;
 }
 
 
-#secondary-menu-links {
+.block-menu, .block-menu-block
+ {
   float: none; /* LTR */
   font-size: 0.929em;
   margin: 10px 10px 0;
 }
 
-#secondary-menu-links,
-.block-menu-block .menu  {
-	border-top: 2px solid rgba(0, 0, 34, 0.5);
-	list-style-type: none;
+.block-menu .content, .block-menu-block .content
+ {
+  border-top: 2px solid rgba(0, 0, 34, 0.5) !important;
+}
 
+.block-menu ul.menu,
+.block-menu-block ul.menu,
+  {
+	list-style-type: none !important;
+}
+
+.block-menu .content,
+.block-menu-block .content {
+  margin-top: 0px;
 }
 
 ul li.leaf {
 	list-style-image: none;
 }
 
-#secondary-menu-links li a,
+.block-menu li a,
 .block-menu-block .menu li a {
 	padding: 10px 0px 9px 10px;
 	display: block;
 	border-bottom: 1px solid rgba(0, 0, 34, 0.3);
 
 }
-#secondary-menu-links a:hover,
-#secondary-menu-links a:focus, 
+
+.block-menu .menu a:hover,
+.block-menu .menu a:focus, 
 .block-menu-block .menu li a:hover,
 .block-menu-block .menu li a:focus {
   text-decoration: underline;
 }
 
+.block-menu .block-menu-block .content {
+  
+}
 /* ------------------- Main ------------------- */
 
 #main {
@@ -676,9 +691,15 @@ h1#page-title {
   font-size: 2em;
   line-height: 1;
 }
+.front h1#page-title {
+  display: none;
+}
 #content h2 {
   margin-bottom: 2px;
   line-height: 1.4;
+}
+.node .content {
+  position: relative;
 }
 .node .content {
   font-size: 1.071em;
@@ -713,7 +734,8 @@ h1#page-title {
   clear: none;
   line-height: 1.6;
 }
-.meta {
+.meta,
+.field-name-field-subtitle {
   font-size: 0.857em;
   color: #68696b;
   margin-bottom: -5px;
@@ -848,7 +870,7 @@ ul.links {
 /* ------------------ Sidebar ----------------- */
 .front #sidebar-second {
 	position: absolute;
-	top: 34px; /* offsetting janky tabs code */
+	top: 0px; /* offsetting janky tabs code */
 	right: 0px;
 }
 
@@ -1508,10 +1530,13 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
   margin-left: 0;
   margin-right: 0;
   height: 25px;
+/*
   width: 34px;
+  text-indent: -9999px;
+*/
+  width: 45px;
   padding: 0;
   cursor: pointer;
-  text-indent: -9999px;
   border-color: #e4e4e4 #d2d2d2 #b4b4b4;
   background: url(../images/search-button.png) no-repeat center top;
   overflow: hidden;
@@ -1721,4 +1746,31 @@ div.admin-panel .description {
 
 .field-name-field-tags .links a {
 	color: #018fe2;
+}
+
+
+/** FRONTPAGE WIDTH OVERRIDE **/
+
+.front.one-sidebar #content {
+  width: 960px !important;
+}
+
+.view-thinkdrop-projects .views-view-grid td {
+  width: 50%;
+  padding: 10px;
+  vertical-align: top;
+  background: none;
+}
+ 
+.view-thinkdrop-projects .views-view-grid tr {
+  background: none;
+}
+
+.node-teaser.node-project .field-name-field-image {
+  margin-top: 20px;
+
+}
+
+.block-search .content {
+  padding: 0 20px;
 }
