@@ -186,20 +186,12 @@
       <?php print render($page['content']); ?>
 
 
-	      <div id="secondary-menu" class="navigation">
-	        <?php print theme('links__system_secondary_menu', array(
-	          'links' => $secondary_menu,
-	          'attributes' => array(
-	            'id' => 'secondary-menu-links',
-	            'class' => array('links', 'block', 'clearfix'),
-	          ),
-	          'heading' => array(
-	            'text' => t('Secondary menu'),
-	            'level' => 'h2',
-	            'class' => array('element-invisible'),
-	          ),
-	        )); ?>
-	      </div> <!-- /#secondary-menu -->
+      <div id="secondary-menu" class="navigation">
+		<?php
+			$block = (object) module_invoke('menu-block', 'block', 'view', '2');
+			print theme('block',$block);
+		?>
+      </div> <!-- /#secondary-menu -->
 
 
 
