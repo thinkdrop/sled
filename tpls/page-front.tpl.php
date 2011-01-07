@@ -185,7 +185,7 @@
       <?php endif; ?>
       <?php print render($page['content']); ?>
 
-	    <?php if ($secondary_menu): ?>
+
 	      <div id="secondary-menu" class="navigation">
 	        <?php print theme('links__system_secondary_menu', array(
 	          'links' => $secondary_menu,
@@ -200,7 +200,7 @@
 	          ),
 	        )); ?>
 	      </div> <!-- /#secondary-menu -->
-	    <?php endif; ?>
+
 
 
       <?php print $feed_icons; ?>
