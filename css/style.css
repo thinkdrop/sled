@@ -1,15 +1,27 @@
 /* $Id: style.css,v 1.49 2010/12/14 19:53:14 dries Exp $ */
 
 @font-face {
-	font-family: 'QuicksandLight';
-	src: url('type/Quicksand_Light-webfont.eot');
+	font-family: 'QuicksandBold';
+	src: url('type/Quicksand_Bold-webfont.eot');
 	src: local("☺"),
-		url('type/Quicksand_Light-webfont.woff') format('woff'), 
-		url('type/Quicksand_Light-webfont.ttf') format('truetype'), 
-		url('type/Quicksand_Light-webfont.svg#webfontdSscXrwb') format('svg');
+		url('type/Quicksand_Bold-webfont.woff') format('woff'), 
+		url('type/Quicksand_Bold-webfont.ttf') format('truetype'), 
+		url('type/Quicksand_Bold-webfont.svg#webfontdSscXrwb') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Copse';
+	src: url('type/Copse-Regular-webfont.eot');
+	src: local("☺"),
+		url('type/Copse-Regular-webfont.woff') format('woff'), 
+		url('type/Copse-Regular-webfont.ttf') format('truetype'), 
+		url('type/Copse-Regular-webfont.svg#webfontdSscXrwb') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 
 /* ---------- Overall Specifications ---------- */
@@ -46,9 +58,23 @@ h6 {
 h1, #page-title {
   /*font-size: 1.357em;*/
   color: #000;
-	font-family: 'QuicksandLight', Arial, sans-serif !important;
+	font-family: 'Copse', Georgia, serif !important;
 	letter-spacing: 0;
 }
+
+#text-replacement {
+	font-family: 'QuicksandBold', Georgia, serif !important;
+	font-size: 1.7em;
+	width: 510px;
+	color: #fff;
+	position: absolute;
+	top: 250px;
+	left: 190px;
+	text-shadow: 0 1px 1px #6E5A00;
+	text-align: right;
+	
+}
+
 h2 {
   font-size: 1.143em;
 }
