@@ -188,7 +188,6 @@
 
     </div></div> <!-- /.section, /#content -->
 
-    <?php if ($page['sidebar_second'] || $secondary_menu): ?>
       <div id="sidebar-second" class="column sidebar"><div class="section">
 	    <?php if ($secondary_menu): ?>
 	      <div id="secondary-menu" class="navigation">
@@ -210,7 +209,6 @@
         <?php print render($page['sidebar_second']); ?>
 
       </div></div> <!-- /.section, /#sidebar-second -->
-    <?php endif; ?>
 
   </div></div> <!-- /#main, /#main-wrapper -->
 
