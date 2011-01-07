@@ -596,19 +596,26 @@ h1#site-name {
   margin: 10px 10px 0;
 }
 
+#secondary-menu-links,
 .block-menu-block .menu  {
 	border-top: 2px solid rgba(0, 0, 34, 0.5);
 	list-style-type: none;
 
 }
 
+.block-menu-block .menu li {
+	list-style-type: none;
+}
+
+#secondary-menu-links li a,
 .block-menu-block .menu li a {
 	padding: 10px 0px 9px 10px;
 	display: block;
 	border-bottom: 1px solid rgba(0, 0, 34, 0.3);
 
 }
-
+#secondary-menu-links a:hover,
+#secondary-menu-links a:focus, 
 .block-menu-block .menu li a:hover,
 .block-menu-block .menu li a:focus {
   text-decoration: underline;
