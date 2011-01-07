@@ -188,7 +188,7 @@
 
       <div id="secondary-menu" class="navigation">
 		<?php
-			$block = (object) module_invoke('menu-block', 'block', 'view', '2');
+			$block = (object) module_invoke('menu_block', 'block', 'view', '2');
 			print theme('block',$block);
 		?>
       </div> <!-- /#secondary-menu -->
