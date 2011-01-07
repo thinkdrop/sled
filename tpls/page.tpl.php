@@ -189,22 +189,6 @@
     </div></div> <!-- /.section, /#content -->
 
       <div id="sidebar-second" class="column sidebar"><div class="section">
-	    <?php if ($secondary_menu): ?>
-	      <div id="secondary-menu" class="navigation">
-	        <?php print theme('links__system_secondary_menu', array(
-	          'links' => $secondary_menu,
-	          'attributes' => array(
-	            'id' => 'secondary-menu-links',
-	            'class' => array('links', 'block', 'clearfix'),
-	          ),
-	          'heading' => array(
-	            'text' => t('Secondary menu'),
-	            'level' => 'h2',
-	            'class' => array('element-invisible'),
-	          ),
-	        )); ?>
-	      </div> <!-- /#secondary-menu -->
-	    <?php endif; ?>
 
         <?php print render($page['sidebar_second']); ?>
 

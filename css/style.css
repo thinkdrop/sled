@@ -603,8 +603,8 @@ h1#site-name {
 
 }
 
-.block-menu-block .menu li {
-	list-style-type: none;
+ul li.leaf {
+	list-style-image: none;
 }
 
 #secondary-menu-links li a,
