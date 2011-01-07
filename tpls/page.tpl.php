@@ -194,8 +194,6 @@
 
     <?php if ($page['sidebar_second'] || $secondary_menu): ?>
       <div id="sidebar-second" class="column sidebar"><div class="section">
-        <?php print render($page['sidebar_second']); ?>
-
 	    <?php if ($secondary_menu): ?>
 	      <div id="secondary-menu" class="navigation">
 	        <?php print theme('links__system_secondary_menu', array(
@@ -213,6 +211,7 @@
 	      </div> <!-- /#secondary-menu -->
 	    <?php endif; ?>
 
+        <?php print render($page['sidebar_second']); ?>
 
       </div></div> <!-- /.section, /#sidebar-second -->
     <?php endif; ?>
