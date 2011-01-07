@@ -1714,3 +1714,11 @@ div.admin-panel .description {
 	padding: 0 10px;
 	margin: 0 5px;
 }
+
+.field-name-field-tags {
+	margin-top: 10px;
+}
+
+.field-name-field-tags .links a {
+	color: #018fe2;
+}
