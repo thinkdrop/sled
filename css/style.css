@@ -352,7 +352,7 @@ ul.tips {
 #name-and-slogan {
   float: none; /* LTR */
 	display: block;
-	background: transparent url('../images/logo-sm.jpg') no-repeat -15px left;
+	background: transparent url('../images/logo-sm.jpg') no-repeat 0;
 	height: 114px;
 	width: 252px;
   padding: 0;
@@ -1088,7 +1088,9 @@ ul.links {
   margin: 0;
   overflow: hidden;
   border: none;
+  /* 
   background: transparent url(../images/tabs-border.png) repeat-x left bottom;
+  */
 }
 .tabs ul.primary li {
   display: block;
@@ -1214,7 +1216,8 @@ div.password-confirm {
 
 input.form-submit,
 a.button {
-  background: #fff url(../images/buttons.png) 0 0 repeat-x;
+  /* background: #fff url(../images/buttons.png) 0 0 repeat-x; */
+  background: #fff;
   border: 1px solid #e4e4e4;
   border-bottom: 1px solid #b4b4b4;
   border-left-color: #d2d2d2;
@@ -1538,7 +1541,9 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
   padding: 0;
   cursor: pointer;
   border-color: #e4e4e4 #d2d2d2 #b4b4b4;
+  /*  
   background: url(../images/search-button.png) no-repeat center top;
+  */
   overflow: hidden;
 }
 #search-block-form input.form-submit:hover,
