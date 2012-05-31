@@ -1,0 +1,489 @@
+body {
+  overflow: hidden;
+  overflow-x: hidden;
+  margin-right: 10px;
+}
+
+a,
+a:visited,
+a:link,
+a:active {
+  font-weight: bold;
+  color: #445;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #556;
+}
+
+header {
+  margin: 0;
+  padding: 10px 10px 0px 10px;
+  background: white;
+  z-index: 1;
+  width: 340px;
+}
+header h1 {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+header h1 img {
+  max-width: 100%;
+}
+header h1 a {
+  
+  width: 340px;
+  height: 71px;
+
+  margin: 0;
+  padding: 0;
+}
+header h1 a span {
+  display: none;
+}
+header p {
+  
+  width: 340px;
+  height: 19px;
+  min-width: 100%;
+  
+  margin: 0px;
+  padding: 0px;
+  
+  margin-top: 10px;
+  
+}
+header p span {
+  display: none;
+}
+
+h2 {
+  margin-top: 0px;
+}
+nav {
+  right: 0px;
+  top: 15px;
+  position: absolute;
+  width: 50%;
+}
+
+.admin-menu nav {
+  top: 35px;
+}
+nav#navigation {
+}
+
+h2 {
+  font-family: 'Josefin Sans';
+  font-size: 3em;
+}
+
+h3 {
+  font-family: 'Josefin Sans';
+  font-size: 2em;
+}
+
+nav a,
+nav a:link,
+nav a:visited
+{
+  color: white !important;
+}
+nav a:hover{
+  text-decoration: none;
+  height: 80px;
+}
+
+nav a{
+  position: relative;
+  font-family: 'Josefin Sans';
+  color: white;
+  background-color: #484537;
+  font-size: 1.3em;
+  padding: 0;
+  text-decoration: none;
+  width: 24%;
+  margin-right: 1%;
+  display:block;
+  float: left;
+  height: 71px;
+}
+nav a.active {
+  height: 100px;
+  color: white;
+}
+nav a span {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+body.front nav {
+  position: relative;
+  right: 0;
+  top: 0;
+  width: 100%;
+  margin: 10px;
+  height: 400px;
+}
+body.front nav * {
+    height: 100%;
+}
+body.front nav li {
+  height: 49%;
+  width: 49%;
+  float: left;
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+body.front nav a {
+  display:block;
+  
+  width: 100%;
+  height: 100%;
+  min-height: 55px;
+  margin-right: 1%;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 3.0em;
+  text-align: right;
+  padding: 0px;
+  
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+body.front nav a span {
+    height: auto;
+}
+nav a.company {
+  background-color: #484537;
+}
+nav a.work {
+  background-color: #502d16;
+}
+nav a.blog {
+  background-color: #381700;
+}
+nav a.contact {
+  background-color: #7c3000;
+}
+
+#content {
+    width: 100%;
+    max-width: 960px;
+    height: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    overflow: hidden;
+    min-height: 120px;
+}
+
+#comments {
+  clear: both;
+}
+
+.node-type-project  #content {
+  max-width: 100%;
+}
+.content-inner {
+  width: 500%;
+  height: 100%;
+}
+section {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    
+    float: left;
+    
+    margin: 0;
+    padding: 0;
+}
+footer {
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+footer img {
+  float: right;
+}
+
+/* The new frontpage */
+.page-node-50 #content {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    height: auto;
+}
+
+.page-node-50 #content h2 {
+    margin: 0px;
+    font-size: 2em;
+}
+
+/* WorkPage */
+.page-node-3 #content {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.view-thinkdrop-projects .views-row {
+  float: left;
+  height: 250px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.view-thinkdrop-projects h3 {
+  margin: 0px;
+}
+
+.view-thinkdrop-projects h3 a,
+.node h3 a {
+  background: #c4c1bd;
+  color: #484537;
+  padding: 10px;
+  display: block;
+}
+
+.view .more-link {
+}
+
+.node h3 {
+  margin-bottom: 0px;  
+}
+.node.node-teaser .content {
+  padding: 0px 10px 10px;
+  background-color: #eeebe6;
+}
+
+.node .field-type-taxonomy-term-reference .field-item {
+  display: inline;
+  margin-right: 15px;
+}
+.node .field-type-taxonomy-term-reference {
+  margin-bottom: 10px;
+}
+
+.node ul.inline li {
+  padding: 0 1em 0 0;
+}
+.node .links {
+}
+.node .links a, .submitted {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: .9em;
+  color: #484537;
+}
+
+.node-project .field-name-field-image {
+  float: right;
+  width: 50%;
+  margin-left: 20px;
+  
+}
+.node-project .field-name-field-image img {
+  max-width: 100%;
+}
+.page-node-1 section > h2{
+  display: none;
+}
+.page-node-1 .node .services{
+  float: right;
+  width: 30%;
+  height: 400px;
+  padding-left: 20px;
+}
+.node .services h3  {
+  margin-top: 0px;
+}
+
+/**
+ * MEDIA QUERIES
+ */
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  header, footer {
+    margin: 20px auto;
+    text-align: center;
+    width: 90%;
+    padding: 0px;
+  }
+  
+  header img {
+    max-width: 100%;
+    padding: 0px 10px;
+  }
+  
+  header p {
+    width: 90%;
+    height: auto;
+  }
+  
+  footer img {
+    float: none;
+  }
+  .page-node-50 #content {
+    position: relative;
+    width: 90%;
+    text-align: center;
+    margin: 0px auto;
+  }
+   nav {
+    width: 100%;
+    top: 0px;
+    position: relative;
+  }
+  nav ul {
+    margin-left: 10px;
+  }
+  nav a span {
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+    right: auto;
+  }
+  .admin-menu nav {
+    top: 0;
+  }
+  
+  .view-thinkdrop-projects .views-row {
+    width: 49%;
+    margin-right: 1%;
+    
+  }
+  .view-thinkdrop-projects .views-row img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+
+  nav a span {
+    font-size: 80%;
+  }
+
+  .view-thinkdrop-projects .views-row {
+    width: 100%;
+    margin-right: 0%;
+    
+  }
+  .view-thinkdrop-projects .views-row img {
+    width: 100%;
+  }
+  
+  .node-project .field-name-field-image {
+    float: none;
+    width: 100%;
+    margin-left: 0px;
+    
+  }
+  .node-project .field-name-field-image img {
+    max-width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 250px) {
+  body.front nav {
+    height: 300px;
+  }
+  body.front nav a span {
+    font-size: 50%;
+  }
+  nav a span {
+    font-size: 60%;
+  }
+
+}
+
+
+/**
+ * Projects Grid
+ */
+@media screen and (min-width: 800px) and (max-width: 930px) {
+ 
+  .view-thinkdrop-projects .views-row {
+    width: 32%;
+    margin-right: 1%;
+    
+  }
+  .view-thinkdrop-projects .views-row img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 931px) and (max-width: 1240px) {
+ 
+  .view-thinkdrop-projects .views-row {
+    width: 24%;
+    margin-right: 1%;
+    
+  }
+  .view-thinkdrop-projects .views-row img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1241px) and (max-width: 1555px) {
+ 
+  .view-thinkdrop-projects .views-row {
+    width: 19%;
+    margin-right: 1%;
+    
+  }
+  .view-thinkdrop-projects .views-row img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1556px) and (max-width: 1860px) {
+ 
+  .view-thinkdrop-projects .views-row {
+    width: 16%;
+    margin-right: .6666%;
+    
+  }
+  .view-thinkdrop-projects .views-row img {
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+ .page-node-1 .node .services {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+  
+.page-node-1 .node h3 {
+  clear: both;
+}
+  .page-node-1 .node .services > div{
+    float: left;
+    width: 50%;   
+  }
+  .page-node-1 .node .services ul {
+  }
+  
+  .page-node-1 .node .services ul {
+    padding-left: 15px;
+  }
+  .page-node-1 .node .services ul li {
+    padding-bottom: 5px;
+  }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 380px) {
+  .page-node-1 .node .services > div {
+    float: none;
+    width: 100%;   
+  }
+  
+}

@@ -1,0 +1,34 @@
+name = ThinkDrop Slope
+description = ThinkDrop.net Theme 3.0
+core = 7.x
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/slope.css
+
+stylesheets[all][] = http://fonts.googleapis.com/css?family=Jura:300,600|Josefin+Sans:400,700
+
+scripts[] = js/jquery.equalheights.js
+;scripts[] = js/scripts.js
+scripts[] = js/work.js
+  
+regions[header] = Header
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[featured] = Featured
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[triptych_first] = Triptych first
+regions[triptych_middle] = Triptych middle
+regions[triptych_last] = Triptych last
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+regions[footer] = Footer
+
