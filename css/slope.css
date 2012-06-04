@@ -489,3 +489,25 @@ footer img {
   }
   
 }
+
+footer {
+  position: relative;
+}
+#footer-img { 
+  height: 50px;
+  width: 160px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  overflow: hidden;
+  background: url(../img/td-contact.png) no-repeat top;
+  text-indent: -10000px;
+}
+
+#footer-img:hover {
+  background-position: bottom;
+}
+
+footer:hover #footer-img img {
+  bottom: 0px !important;
+}
