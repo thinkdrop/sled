@@ -34,7 +34,7 @@
 
   <footer>
     <div id='footer-img'>Made in Brooklyn NY - 347-915-DROP (3767)</div>
-    <p>&copy; 2010-2012 ThinkDrop Consulting LLC | <a href="http://twitter.com/thinkdropLLC" target="_blank">@thinkdropLLC</a> | <a href="https://plus.google.com/116058331687134465766/" target="_blank">Google+</a></p>  
+    <p>&copy; 2010-2012 ThinkDrop Consulting LLC | <a href="http://twitter.com/thinkdropNYC" target="_blank">@thinkdropNYC</a> | <a href="https://plus.google.com/116058331687134465766/" target="_blank">Google+</a></p>  
 <div style="display: inline;" class="fb-like" data-href="http://www.facebook.com/thinkdrop" data-send="true" data-layout="button_count"  data-show-faces="false"></div> 
 <g:plusone size="small" href="https://plus.google.com/116058331687134465766"></g:plusone> 
 
