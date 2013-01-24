@@ -247,7 +247,6 @@ footer img {
 
 .view-thinkdrop-projects h3 a,
 .node h3 a {
-  background: #c4c1bd;
   color: #484537;
   padding: 10px;
   display: block;
@@ -261,7 +260,6 @@ footer img {
 }
 .node.node-teaser .content {
   padding: 0px 10px 10px;
-  background-color: #eeebe6;
 }
 
 .node .field-type-taxonomy-term-reference .field-item {
